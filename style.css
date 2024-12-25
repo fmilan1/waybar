@@ -12,11 +12,8 @@ window#waybar {
 }
 
 #end-right-module,
-#cpu,
 #cpu-group,
 #memory,
-#disk,
-#temperature,
 #network,
 #wireplumber,
 #pulseaudio,
@@ -28,17 +25,12 @@ window#waybar {
 #mpd {
   padding: 0px 6px;
   color: rgba(255, 255, 255, 1);
-  border-radius: 20px;
-  background-color: rgba(0, 43, 54, 0.7);
+  border-radius: 10px;
   border: 0.19em solid rgba(203, 75, 22, 1);
 }
 
 #cpu-group {
-  border: 0.19em solid rgba(0, 255, 255, 1);
-}
-#cpu, #temperature {
-    border: none;
-    background: none;
+    border-color: rgb(0, 255, 255);
 }
 
 @keyframes blink-workspace {

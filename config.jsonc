@@ -7,8 +7,8 @@
   "exclusive": true,
   "fixed-center": true,
   "modules-left": ["pulseaudio", "custom/media"],
-  "modules-center": ["hyprland/workspaces"],
-  "modules-right": ["sway/language", "group/cpu-group", "group/systray", "group/end-right-module"],
+  "modules-center": [ "hyprland/workspaces"],
+  "modules-right": ["disk", "sway/language", "group/cpu-group", "group/systray", "group/end-right-module"],
   "include": [
     "~/.config/waybar/modules/modules.jsonc",
     "~/.config/waybar/modules/groups.jsonc",
