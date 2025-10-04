@@ -35,9 +35,9 @@
   // Clock
   "clock": {
     "interval": 1,
-    "format": "{:%I:%M:%S %p - %d-%m-%Y}",
+    "format": "{:%I:%M:%S %p %d-%m-%Y}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<big>{calendar}</big>",
-    "format-alt": "{:%d-%m-%Y}",
+    "format-alt": "{:%I:%M:%S %p}",
   },
 
   // Battery
